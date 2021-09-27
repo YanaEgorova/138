@@ -1,0 +1,15 @@
+.hero {
+    padding-top: 20rem;
+    position: relative;
+}
+.hero .block {
+    background-color: rgba(86, 102, 114, .9);
+    padding: 5rem 3rem;
+}
+.hero .block .text {
+    margin-bottom: 0;
+    color: var(--sub-text-color);
+}
+@media screen and (min-width: 1024px)  {
+  
+}

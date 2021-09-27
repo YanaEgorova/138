@@ -1,0 +1,65 @@
+.info__wrapper   {
+}
+.info {
+   padding: 15rem 0;
+}
+.info .item:not(:last-child) {
+   margin-bottom: 15rem;
+}
+.info .block {
+   padding: 5rem 3rem;
+}
+.info .block-first {
+   background-color: rgba(179, 185, 83, .8);
+}
+.info .block-second {
+   background-color: rgba(205, 88, 80, .8);
+}
+.info .block-third {
+   background-color: rgba(162, 122, 97, .8);
+}
+.info .block-fourth {
+   background-color: rgba(179, 185, 85, .8);
+}
+.info .img {
+   margin-bottom: 0;
+}
+.info .text.bold {
+   margin-bottom: 2rem;
+}
+@media screen and (min-width: 1024px)  {
+   .info .block {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+   }
+   .info .img {
+      margin: 0;
+   }
+   .info .text {
+      margin-bottom: 0;
+   }
+   .info .item:nth-child(even) .block {
+      flex-direction: row-reverse;
+   }
+   .info .text-block {
+      text-align: right;
+      margin-right: 5rem;
+   }
+   .info .item:nth-child(even) .text-block {
+      text-align: left;
+      margin-right: 0;
+      margin-left: 5rem;
+   }
+   .btn {
+      margin: 0;
+      margin-left: auto;
+      margin-top: 3rem;
+   }
+   .info .item:nth-child(even) .btn {
+      margin-left: 0;
+      margin-right: auto;
+   }
+}
+
+
